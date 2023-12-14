@@ -22,9 +22,9 @@
     <link id="style" href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- STYLE CSS -->
-     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
 
-	<!-- Plugins CSS -->
+    <!-- Plugins CSS -->
     <link href="assets/css/plugins.css" rel="stylesheet">
 
     <!--- FONT-ICONS CSS -->
@@ -53,10 +53,12 @@
             <div class="app-header header sticky">
                 <div class="container-fluid main-container">
                     <div class="d-flex">
-                        <a aria-label="Hide Sidebar" class="app-sidebar__toggle" data-bs-toggle="sidebar" href="javascript:void(0)"></a>
+                        <a aria-label="Hide Sidebar" class="app-sidebar__toggle" data-bs-toggle="sidebar"
+                            href="javascript:void(0)"></a>
                         <!-- sidebar-toggle-->
                         <a class="logo-horizontal " href="index.html">
-                            <img src="assets/images/brand/logo-white.png" class="header-brand-img desktop-logo" alt="logo">
+                            <img src="assets/images/brand/logo-white.png" class="header-brand-img desktop-logo"
+                                alt="logo">
                             <img src="assets/images/brand/logo-dark.png" class="header-brand-img light-logo1"
                                 alt="logo">
                         </a>
@@ -79,7 +81,8 @@
                                         </div>
                                         <!-- Theme-Layout -->
                                         <div class="dropdown d-flex profile-1">
-                                            <a href="javascript:void(0)" data-bs-toggle="dropdown" class="nav-link leading-none d-flex">
+                                            <a href="javascript:void(0)" data-bs-toggle="dropdown"
+                                                class="nav-link leading-none d-flex">
                                                 <img src="assets/images/users/21.jpg" alt="profile-user"
                                                     class="avatar  profile-user brround cover-image">
                                             </a>
@@ -114,10 +117,12 @@
                 <div class="app-sidebar">
                     <div class="side-header">
                         <a class="header-brand1" href="index.html">
-                            <img src="assets/images/brand/logo-white.png" class="header-brand-img desktop-logo" alt="logo">
+                            <img src="assets/images/brand/logo-white.png" class="header-brand-img desktop-logo"
+                                alt="logo">
                             <img src="assets/images/brand/icon-white.png" class="header-brand-img toggle-logo"
                                 alt="logo">
-                            <img src="assets/images/brand/icon-dark.png" class="header-brand-img light-logo" alt="logo">
+                            <img src="assets/images/brand/icon-dark.png" class="header-brand-img light-logo"
+                                alt="logo">
                             <img src="assets/images/brand/logo-dark.png" class="header-brand-img light-logo1"
                                 alt="logo">
                         </a>
@@ -141,8 +146,8 @@
                                 <h3>UI Kit</h3>
                             </li>
                         </ul>
-                        <div class="slide-right" id="slide-right"><svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191"
-                                width="24" height="24" viewBox="0 0 24 24">
+                        <div class="slide-right" id="slide-right"><svg xmlns="http://www.w3.org/2000/svg"
+                                fill="#7b8191" width="24" height="24" viewBox="0 0 24 24">
                                 <path d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z" />
                             </svg></div>
                     </div>
@@ -156,8 +161,140 @@
 
                     <!-- CONTAINER -->
                     <div class="main-container container-fluid">
+                        <!-- PAGE-HEADER -->
+                        <div class="page-header">
+                            <h1 class="page-title">Dashboard 01</h1>
+                            <div>
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Dashboard 01</li>
+                                </ol>
+                            </div>
+                        </div>
                         <!-- ROW-1 -->
-
+                        <div class="row">
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+                                <div class="card bg-primary img-card box-primary-shadow">
+                                    <div class="card-body">
+                                        <div class="d-flex">
+                                            <div class="text-white">
+                                                <h2 class="mb-0 number-font">Jenis Barang</h2>
+                                                <p class="text-white mb-0">Jenis Barang </p>
+                                            </div>
+                                            <div class="ms-auto"> <i
+                                                    class="fe fe-package text-white fs-40 me-2 mt-2"></i> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- COL END -->
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+                                <div class="card bg-secondary img-card box-secondary-shadow">
+                                    <div class="card-body">
+                                        <div class="d-flex">
+                                            <div class="text-white">
+                                                <h2 class="mb-0 number-font">Satuan Barang</h2>
+                                                <p class="text-white mb-0">Satuan Barang</p>
+                                            </div>
+                                            <div class="ms-auto"> <i
+                                                    class="fe fe-package text-white fs-40 me-2 mt-2"></i> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- COL END -->
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+                                <div class="card  bg-success img-card box-success-shadow">
+                                    <div class="card-body">
+                                        <div class="d-flex">
+                                            <div class="text-white">
+                                                <h2 class="mb-0 number-font">Merk Barang</h2>
+                                                <p class="text-white mb-0">Merk Barang</p>
+                                            </div>
+                                            <div class="ms-auto"> <i
+                                                    class="fe fe-package text-white fs-40 me-2 mt-2"></i> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- COL END -->
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+                                <div class="card bg-info img-card box-info-shadow">
+                                    <div class="card-body">
+                                        <div class="d-flex">
+                                            <div class="text-white">
+                                                <h2 class="mb-0 number-font">Barang</h2>
+                                                <p class="text-white mb-0">Barang</p>
+                                            </div>
+                                            <div class="ms-auto"> <i
+                                                    class="fe fe-package text-white fs-40 me-2 mt-2"></i> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- COL END -->
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+                                <div class="card bg-success img-card box-success-shadow">
+                                    <div class="card-body">
+                                        <div class="d-flex">
+                                            <div class="text-white">
+                                                <h2 class="mb-0 number-font">Barang Masuk</h2>
+                                                <p class="text-white mb-0">Barang Masuk</p>
+                                            </div>
+                                            <div class="ms-auto"> <i
+                                                    class="fe fe-repeat text-white fs-40 me-2 mt-2"></i> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- COL END -->
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+                                <div class="card bg-danger img-card box-danger-shadow">
+                                    <div class="card-body">
+                                        <div class="d-flex">
+                                            <div class="text-white">
+                                                <h2 class="mb-0 number-font">Barang Keluar</h2>
+                                                <p class="text-white mb-0">Barang Keluar</p>
+                                            </div>
+                                            <div class="ms-auto"> <i
+                                                    class="fe fe-repeat text-white fs-40 me-2 mt-2"></i> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- COL END -->
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+                                <div class="card bg-purple img-card box-purple-shadow">
+                                    <div class="card-body">
+                                        <div class="d-flex">
+                                            <div class="text-white">
+                                                <h2 class="mb-0 number-font">Customer</h2>
+                                                <p class="text-white mb-0">Customer</p>
+                                            </div>
+                                            <div class="ms-auto"> <i
+                                                    class="fe fe-user text-white fs-40 me-2 mt-2"></i> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- COL END -->
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+                                <div class="card bg-warning img-card box-warning-shadow">
+                                    <div class="card-body">
+                                        <div class="d-flex">
+                                            <div class="text-white">
+                                                <h2 class="mb-0 number-font">User</h2>
+                                                <p class="text-white mb-0">User</p>
+                                            </div>
+                                            <div class="ms-auto"> <i
+                                                    class="fe fe-user text-white fs-40 me-2 mt-2"></i> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- COL END -->
+                        </div>
+                        <!-- ROW 1 CLOSED -->
                         <!-- ROW-4 END -->
                     </div>
                     <!-- CONTAINER END -->
@@ -171,92 +308,93 @@
             <div class="container">
                 <div class="row align-items-center flex-row-reverse">
                     <div class="col-md-12 col-sm-12 text-center">
-                        Copyright © <span id="year"></span> <a href="javascript:void(0)">Sash</a>. Designed with <span
-                            class="fa fa-heart text-danger"></span> by <a href="javascript:void(0)"> Spruko </a> All rights reserved.
+                        Copyright © <span id="year"></span> <a href="javascript:void(0)">Sash</a>. Designed with
+                        <span class="fa fa-heart text-danger"></span> by <a href="javascript:void(0)"> Spruko </a> All
+                        rights reserved.
                     </div>
                 </div>
             </div>
         </footer>
         <!-- FOOTER END -->
 
-    <!-- BACK-TO-TOP -->
-    <a href="#top" id="back-to-top"><i class="fa fa-angle-up"></i></a>
+        <!-- BACK-TO-TOP -->
+        <a href="#top" id="back-to-top"><i class="fa fa-angle-up"></i></a>
 
-    <!-- JQUERY JS -->
-    <script src="assets/js/jquery.min.js"></script>
+        <!-- JQUERY JS -->
+        <script src="assets/js/jquery.min.js"></script>
 
-    <!-- BOOTSTRAP JS -->
-    <script src="assets/plugins/bootstrap/js/popper.min.js"></script>
-    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <!-- BOOTSTRAP JS -->
+        <script src="assets/plugins/bootstrap/js/popper.min.js"></script>
+        <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- SPARKLINE JS-->
-    <script src="assets/js/jquery.sparkline.min.js"></script>
+        <!-- SPARKLINE JS-->
+        <script src="assets/js/jquery.sparkline.min.js"></script>
 
-    <!-- Sticky js -->
-    <script src="assets/js/sticky.js"></script>
+        <!-- Sticky js -->
+        <script src="assets/js/sticky.js"></script>
 
-    <!-- CHART-CIRCLE JS-->
-    <script src="assets/js/circle-progress.min.js"></script>
+        <!-- CHART-CIRCLE JS-->
+        <script src="assets/js/circle-progress.min.js"></script>
 
-    <!-- PIETY CHART JS-->
-    <script src="assets/plugins/peitychart/jquery.peity.min.js"></script>
-    <script src="assets/plugins/peitychart/peitychart.init.js"></script>
+        <!-- PIETY CHART JS-->
+        <script src="assets/plugins/peitychart/jquery.peity.min.js"></script>
+        <script src="assets/plugins/peitychart/peitychart.init.js"></script>
 
-    <!-- SIDEBAR JS -->
-    <script src="assets/plugins/sidebar/sidebar.js"></script>
+        <!-- SIDEBAR JS -->
+        <script src="assets/plugins/sidebar/sidebar.js"></script>
 
-    <!-- Perfect SCROLLBAR JS-->
-    <script src="assets/plugins/p-scroll/perfect-scrollbar.js"></script>
-    <script src="assets/plugins/p-scroll/pscroll.js"></script>
-    <script src="assets/plugins/p-scroll/pscroll-1.js"></script>
+        <!-- Perfect SCROLLBAR JS-->
+        <script src="assets/plugins/p-scroll/perfect-scrollbar.js"></script>
+        <script src="assets/plugins/p-scroll/pscroll.js"></script>
+        <script src="assets/plugins/p-scroll/pscroll-1.js"></script>
 
-    <!-- INTERNAL CHARTJS CHART JS-->
-    <script src="assets/plugins/chart/Chart.bundle.js"></script>
-    <script src="assets/plugins/chart/utils.js"></script>
+        <!-- INTERNAL CHARTJS CHART JS-->
+        <script src="assets/plugins/chart/Chart.bundle.js"></script>
+        <script src="assets/plugins/chart/utils.js"></script>
 
-    <!-- INTERNAL SELECT2 JS -->
-    <script src="assets/plugins/select2/select2.full.min.js"></script>
+        <!-- INTERNAL SELECT2 JS -->
+        <script src="assets/plugins/select2/select2.full.min.js"></script>
 
-    <!-- INTERNAL Data tables js-->
-    <script src="assets/plugins/datatable/js/jquery.dataTables.min.js"></script>
-    <script src="assets/plugins/datatable/js/dataTables.bootstrap5.js"></script>
-    <script src="assets/plugins/datatable/dataTables.responsive.min.js"></script>
+        <!-- INTERNAL Data tables js-->
+        <script src="assets/plugins/datatable/js/jquery.dataTables.min.js"></script>
+        <script src="assets/plugins/datatable/js/dataTables.bootstrap5.js"></script>
+        <script src="assets/plugins/datatable/dataTables.responsive.min.js"></script>
 
-    <!-- INTERNAL APEXCHART JS -->
-    <script src="assets/js/apexcharts.js"></script>
-    <script src="assets/plugins/apexchart/irregular-data-series.js"></script>
+        <!-- INTERNAL APEXCHART JS -->
+        <script src="assets/js/apexcharts.js"></script>
+        <script src="assets/plugins/apexchart/irregular-data-series.js"></script>
 
-    <!-- INTERNAL Flot JS -->
-    <script src="assets/plugins/flot/jquery.flot.js"></script>
-    <script src="assets/plugins/flot/jquery.flot.fillbetween.js"></script>
-    <script src="assets/plugins/flot/chart.flot.sampledata.js"></script>
-    <script src="assets/plugins/flot/dashboard.sampledata.js"></script>
+        <!-- INTERNAL Flot JS -->
+        <script src="assets/plugins/flot/jquery.flot.js"></script>
+        <script src="assets/plugins/flot/jquery.flot.fillbetween.js"></script>
+        <script src="assets/plugins/flot/chart.flot.sampledata.js"></script>
+        <script src="assets/plugins/flot/dashboard.sampledata.js"></script>
 
-    <!-- INTERNAL Vector js -->
-    <script src="assets/plugins/jvectormap/jquery-jvectormap-2.0.2.min.js"></script>
-    <script src="assets/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+        <!-- INTERNAL Vector js -->
+        <script src="assets/plugins/jvectormap/jquery-jvectormap-2.0.2.min.js"></script>
+        <script src="assets/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
 
-    <!-- SIDE-MENU JS-->
-    <script src="assets/plugins/sidemenu/sidemenu.js"></script>
+        <!-- SIDE-MENU JS-->
+        <script src="assets/plugins/sidemenu/sidemenu.js"></script>
 
-	<!-- TypeHead js -->
-	<script src="assets/plugins/bootstrap5-typehead/autocomplete.js"></script>
-    <script src="assets/js/typehead.js"></script>
+        <!-- TypeHead js -->
+        <script src="assets/plugins/bootstrap5-typehead/autocomplete.js"></script>
+        <script src="assets/js/typehead.js"></script>
 
-    <!-- INTERNAL INDEX JS -->
-    <script src="assets/js/index1.js"></script>
+        <!-- INTERNAL INDEX JS -->
+        <script src="assets/js/index1.js"></script>
 
-    <!-- Color Theme js -->
-    <script src="assets/js/themeColors.js"></script>
+        <!-- Color Theme js -->
+        <script src="assets/js/themeColors.js"></script>
 
-    <!-- CUSTOM JS -->
-    <script src="assets/js/custom.js"></script>
+        <!-- CUSTOM JS -->
+        <script src="assets/js/custom.js"></script>
 
-    <!-- Custom-switcher -->
-    <script src="assets/js/custom-swicher.js"></script>
+        <!-- Custom-switcher -->
+        <script src="assets/js/custom-swicher.js"></script>
 
-    <!-- Switcher js -->
-    <script src="assets/switcher/js/switcher.js"></script>
+        <!-- Switcher js -->
+        <script src="assets/switcher/js/switcher.js"></script>
 
 </body>
 
